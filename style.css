@@ -1,0 +1,50 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #dedede;
+}
+
+footer {
+    background-color: #000b70;
+    margin-top: 5rem;
+}
+
+footer div h4 {
+    color: #dfdfdf;
+    padding-left: 1rem;
+    margin-bottom: 0.9rem;
+}
+
+.footer-list li {
+    list-style: none;
+}
+
+.footer-list li i, a {
+    text-decoration: none;
+    font-weight: 400;
+    color: #dfdfdf;
+}
+
+.footer-list li a:hover{
+    font-weight: 500;
+    color: #bbb;
+    padding-left: 0.4rem;
+}
+
+.footer-list li i:hover {
+    font-weight: 500;
+    color: #bbb;
+    transform: scale3d(150%, 150%, 150%);
+}
+
+form label{
+    color: #dfdfdf;
+}
+
+form input {
+    border-radius: 0.4rem;
+    border-style: none;
+    background-color: #dfdfdf;
+}

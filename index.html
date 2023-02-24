@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- NavBar -->
+
+    <nav class="navbar navbar-expand-md bg-body-tertiary mb-2">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Library</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Autores</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Gêneros
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Classicos</a></li>
+                <li><a class="dropdown-item" href="#">Tragédia</a></li>
+                <li><a class="dropdown-item" href="#">Sci-Fi</a></li>
+                <li><a class="dropdown-item" href="#">Fantasia</a></li>
+                <li><a class="dropdown-item" href="#">Ação</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Outros</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- /NavBar -->
+
+    <!-- Carousel -->
+
+    <div id="carouselExampleIndicators" class="carousel slide container-sm" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://cdn.pixabay.com/photo/2018/03/19/18/20/tea-time-3240766_960_720.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.pixabay.com/photo/2015/06/23/23/14/laptop-819285_960_720.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://cdn.pixabay.com/photo/2015/08/29/02/17/book-912725_960_720.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- /Carousel -->
+
+    <!-- Cards -->
+
+    <div class="card-group container-sm mb-3 mt-3">
+      <div class="card g-5">
+        <img src="https://m.media-amazon.com/images/I/519kRFUvDOL._SX356_BO1,204,203,200_.jpg" class="card-img-top p-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Pai Rico, Pai Pobre</h5>
+          <p class="card-text">A escola prepara as crianças para o mundo real?  Essa é a primeira pergunta com a qual o leitor se depara neste livro.  O recado é ousado e direto: boa formação e notas altas não bastam para assegurar o sucesso de alguém.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Última atualização há 3 minutos</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/I/41TsvI70n9L._SX335_BO1,204,203,200_.jpg" class="card-img-top p-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Do Mil ao Milhão. Sem Cortar o Cafezinho.</h5>
+          <p class="card-text">Em seu primeiro livro, Thiago Nigro, criador da plataforma O Primo Rico, ensina aos leitores os três pilares para atingir a independência financeira: gastar bem, investir melhor e ganhar mais.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Última atualização há 3 minutos</small>
+        </div>
+      </div>
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/I/41ro37po+CL._SX331_BO1,204,203,200_.jpg" class="card-img-top p-3" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Quem pensa enriquece - O Legado</h5>
+          <p class="card-text">O clássico best-seller sobre o sucesso agora anotado e acrescido de exemplos modernos, comprovando que a filosofia da realização pessoal de Napoleon Hill permanece atual e ainda orienta aqueles que são bem-sucedidos. Um livro que vai mudar não só o que você pensa, vai mudar o modo como você pensa.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Última atualização há 3 minutos</small>
+        </div>
+      </div>
+    </div>
+
+    <!-- /Cards -->
+
+    <!-- footer -->
+
+    <footer class="pt-4">
+      <div class="flex container-sm pt-2 pb-4">
+        <div class="row-footer row">
+          <div class="col-footer col-3">
+            <h4>Inicio</h4>
+            <ul class="footer-list">
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Autores</a></li>
+              <li><a href="#">Gêneros</a></li>
+            </ul>
+          </div>
+          <div class="col-footer col-3">
+            <h4>Quem somos</h4>
+            <ul class="footer-list">
+              <li><a href="#">História da empresa</a></li>
+              <li><a href="#">Seja um de nós</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-footer col-3">
+            <h4>Suporte</h4>
+            <ul class="footer-list">
+              <li><a href="#">Telefones</a></li>
+              <li><a href="#">Chat</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="col-footer col-3">
+            <form action="">
+              <label for="email">Digite seu e-mail</label>
+              <input type="email" name="email" id="email" />
+              <button>Se inscrever!</button>
+            </form>
+            <ul class="footer-list">
+              <li><a href=""><i class="fa fa-twitter"></i></a></li>
+              <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+              <li><a href=""><i class="fa fa-instagram"></i></a></li>
+              <li><a href=""><i class="fa fa-facebook"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- /footer -->
+
+    <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
